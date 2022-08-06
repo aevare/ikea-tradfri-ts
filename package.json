@@ -1,0 +1,38 @@
+{
+  "name": "ikea-tradfri-ts",
+  "version": "4.2.1",
+  "description": "A library to access the Ikea Trådfri lighting system",
+  "main": "lib/Tradfri.js",
+  "types": "lib/Tradfri.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aevare/ikea-tradfri-ts.git"
+  },
+  "keywords": [
+    "ikea",
+    "tradfri",
+    "coap",
+    "zigbee",
+    "typescript"
+  ],
+  "author": "Cliff Stanford",
+  "maintainers": [
+    "Ævar Eggertsson"
+  ],
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aevare/ikea-tradfri-ts/issues"
+  },
+  "homepage": "https://github.com/aevare/ikea-tradfri-ts#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "events": "^3.3.0",
+    "node-tradfri-client": "^3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
